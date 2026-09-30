@@ -183,6 +183,7 @@ web_server:
   port: 80
   version: 3
   auth:
+    type: digest
     username: !secret web_username
     password: !secret web_password
 
@@ -207,3 +208,4 @@ logger:
 
 ota:
   - platform: esphome
+    encryption:
