@@ -181,6 +181,7 @@ api:
 
 web_server:
   port: 80
+  ota: false
   version: 3
   auth:
     type: digest
